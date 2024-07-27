@@ -2,10 +2,15 @@ package main
 
 import "fmt"
 
-var myString string
+func printVariableSimple() {
 
-func printVariables() {
-	myString = "Milan"
+	team1 := "INTER"
+	team2 := "JUVENTUS"
+	team3 := "MILAN"
 
-	fmt.Println(myString)
+	fmt.Println(team1, team3, team2)
+}
+
+func main()  {
+	printVariableSimple()
 }

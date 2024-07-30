@@ -17,7 +17,28 @@ func printConstants()  {
 	fmt.Println(League)
 }
 
+func imprimirSemana()  {
+	const (
+		domingo int = iota + 1
+		lunes
+		martes
+		miercoles
+		jueves
+		viernes
+		sabado
+	)
+
+	fmt.Println(domingo)
+	fmt.Println(lunes)
+	fmt.Println(martes)
+	fmt.Println(miercoles)
+	fmt.Println(jueves)
+	fmt.Println(viernes)
+	fmt.Println(sabado)
+}
+
 func main()  {
 	printVariableSimple()
 	printConstants()
+	imprimirSemana()
 }

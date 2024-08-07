@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"./PackageGo"
+	"fmt"
+)
 
 func main() {
-	fmt.Println("Hello World with GO!")
+	curso := PackageGo.Curso{Titulo: "Curso profesional de GO"}
+	fmt.Println(curso)
 }

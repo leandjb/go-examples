@@ -5,6 +5,7 @@ import "fmt"
 type Animal interface {
 	Comer()
 	Dormir()
+
 }
 
 type Dog struct {
